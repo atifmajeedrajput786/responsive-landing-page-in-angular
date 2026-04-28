@@ -1,0 +1,179 @@
+.experience{
+    height: auto;
+    width: 100%;
+}
+.body{
+    display: flex;
+    justify-content:space-around ;
+    padding-top:120px ;
+
+}
+.btn{
+    width: 144px;
+    height: 53px ;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #0d6efd;
+    cursor: pointer;
+  }
+.btn:hover{
+    background-color: #124390;
+    color: #eee;
+  }
+
+  .grid{
+    width: 80%;
+    margin-left: 230px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    
+}
+.card{
+    width: 415px;
+    height: 585px;
+    /* border: solid 2px black; */
+    border-radius: 2%;
+    border-bottom: solid 1px  #0d6efd;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: transform 0.5S ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+  }
+.card:hover{
+    transform: translateY(-10px);
+
+}
+
+  img{
+    width: 100%;
+    height: 418px;
+    object-fit: cover;
+    /* margin-top: -130px ; */
+    
+  }
+  .grid-text{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 20px;
+    font-size: 25px;
+
+  }
+  i{
+    /* width: 80px; */
+    /* height: 80px; */
+    margin: 10px 0 2px 5px;
+    /* border: none; */
+    color: white;
+    /* color: #00aaff; */
+    background-color: #00aaff;
+    cursor: pointer;
+    /* font-size: 40px; */
+    /* margin:0  10px; */
+    border-radius: 50%;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+    /* margin-left: 20px; */
+    /* margin-bottom: 25px; */
+  }
+  i:hover{
+    background-color: #124390;
+  }
+  strong:hover{
+    color: #00aaff;
+  }
+  p{
+    color: grey;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor:text;
+  }
+  /* -------------------------tablet--------------------------- */
+  @media (max-width:1024px){
+    .experience{
+      height: auto;
+      padding-bottom: 50px;
+    }
+   .body{
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    gap: 20px;
+    text-align: center;
+  }
+    .grid{
+    width: 90%;
+    margin-left: 0;
+    grid-template-columns: repeat(2, 1fr); /* 3 → 2 columns */
+    justify-items: center;
+  }
+  .card{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  img{
+    height: auto;
+  }
+
+  .grid-text{
+    font-size: 20px;
+  }
+
+}
+
+
+/* ------------------------------mobile------------------------------ */
+@media (max-width: 768px){
+
+  .grid{
+    grid-template-columns: 1fr; /* 2 → 1 column */
+    width: 95%;
+  }
+
+  .card{
+    width: 100%;
+  }
+
+  .btn{
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .grid-text{
+    font-size: 18px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+}
+
+/* -------------------------------samll mobile--------------------------------- */
+@media (max-width: 480px){
+
+  .body{
+    padding-top: 50px;
+  }
+
+  .btn{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .grid-text{
+    font-size: 16px;
+  }
+
+  p{
+    font-size: 13px;
+  }
+
+}

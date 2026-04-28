@@ -1,0 +1,134 @@
+  /* CONTAINER */
+  .container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+ /* HEADER */
+  .header {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+  }
+  /* navbar */
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* menu */
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;  
+    cursor: pointer;  
+  }
+  li:hover{
+    color: #0d6efd;
+  }
+  .logo{
+    cursor: pointer;
+    font-size:45px;
+    font-weight: 700;
+
+  }
+  /* BUTTONS */
+  .btn {
+    background: #0d6efd;
+    color: white;
+    width: 256px;
+    height: 52px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #124390;
+    color: #eee;
+  }
+  i{
+    color: black;
+    margin-right: 25px;
+    font-size: 23px;
+    cursor: pointer;
+  }
+  a:hover{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: large;
+  }
+
+.hamburger{
+  display: none ;
+  font-size: 28px;
+  cursor: pointer;
+}
+/* ================= TABLET (1024px and below) ================= */
+
+  @media (max-width: 1024px){
+     .container{
+    flex-direction: column;
+    padding: 0 20px;
+  }
+ .menu{
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  }
+  /* ================= MOBILE (768px and below) ================= */
+@media (max-width: 768px){
+  .logo{
+    font-size: 28px;
+  }
+
+  /* .menu{
+    display: none; hide menu (you can later add hamburger)
+  } */
+  .menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+  .btn{
+    width: 180px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+ .menu.active {
+    display: flex;
+  }
+/* ================= SMALL MOBILE (480px and below) ================= */
+@media (max-width: 480px){
+  .hero{
+    padding: 40px 10px;
+  }
+
+  .hero-text h1{
+    font-size: 22px;
+  }
+
+  .btn{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+  }
+   .hamburger{
+    display:block;
+  }
+
+
+}
