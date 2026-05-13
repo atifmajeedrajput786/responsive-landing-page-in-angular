@@ -104,7 +104,7 @@
   }
 /* -----------------------------------------tablet------------------------------------------- */
 
-@media (max-width: 1024px){
+/* @media (max-width: 1024px){
 
   .reviews{
     height: auto;
@@ -123,7 +123,7 @@
   .grid{
     margin-left: 0;
     width: 90%;
-    grid-template-columns: repeat(2, 1fr); /* 3 → 2 */
+    grid-template-columns: repeat(2, 1fr); 
     justify-items: center;
   }
 
@@ -133,15 +133,15 @@
     height: auto;
   }
 
-}
+} */
 
 
 /* -----------------------------mobile------------------------------------ */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 
   .grid{
-    grid-template-columns: 1fr; /* 2 → 1 */
+    grid-template-columns: 1fr; 
     width: 95%;
   }
 
@@ -176,11 +176,11 @@
     margin-top: -30px;
   }
 
-}
+} */
 
 
 /* ----------------------------small mobile--------------------------- */
-@media (max-width: 480px){
+/* @media (max-width: 480px){
 
   .reviews{
     margin-top: 60px;
@@ -208,5 +208,93 @@
     font-size: 13px;
   }
 
+} */
+  @media (max-width: 1024px) {
+
+    .reviews{
+        height: auto; /* remove fixed height issue */
+    }
+
+    .grid{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+    }
 }
-  
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .reviews{
+        height: auto;
+    }
+
+    .body{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .grid{
+        width: 95%;
+        margin-left: auto;   /* FIX LEFT STICK ISSUE */
+        margin-right: auto;
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+
+    .card{
+        width: 100%;
+        height: auto;
+    }
+
+    img{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    i{
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        padding-top: 12px;
+        margin: -30px 10px;
+    }
+
+    .intro{
+        font-size: 18px;
+        padding-top: 50px;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+
+    .grid{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .intro{
+        font-size: 16px;
+    }
+
+    i{
+        width: 55px;
+        height: 55px;
+        font-size: 26px;
+        margin-left: 15px;
+    }
+}

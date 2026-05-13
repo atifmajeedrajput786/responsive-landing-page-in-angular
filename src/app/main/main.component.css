@@ -39,7 +39,7 @@ a{
 /* -----------------------------------------tablet------------------------------------------- */
 
 
-  @media (max-width: 1024px){
+  /* @media (max-width: 1024px){
      .main-div{
     flex-direction: column;
     margin-left: 0;
@@ -58,10 +58,10 @@ a{
     width: 100%;
     height: auto;
   }
-  }
+  } */
 /* -----------------------------mobile------------------------------------ */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
    .main-h1{
     font-size: 26px;
   }
@@ -69,13 +69,131 @@ a{
   .span,
   .a{
     font-size: 22px;
-    margin-left: 0;
+    margin-left: 0 auto;
     text-align: center;
   }
-}
+} */
 /* ----------------------------small mobile--------------------------- */
-@media (max-width: 480px){
+/* @media (max-width: 480px){
    .main-h1{
     font-size: 22px;
   }
+   .span,
+  .a{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    margin-left: 0 ;
+    text-align: center;
+    text-align: center;
+  }
+} */
+
+@media (max-width: 1024px){
+
+  .main-div{
+    width: 90%;
+    margin-left: 50px;
+    height: auto;
+    gap: 30px;
+  }
+
+  .main-title{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-h1{
+    width: 70%;
+    margin-left: 50px;
+    font-size: 34px;
+  }
+
+  .main-img{
+    width: 450px;
+    height: auto;
+  }
+
+  .span{
+    width: 100%;
+    /* margin-left: 50px; */
+    font-size: 28px;
+  }
+
+  a{
+    width: 100%;
+    font-size: 28px;
+  }
+
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px){
+
+  .main-div{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .main-title{
+    margin-top: 0;
+  }
+
+  .main-h1{
+    width: 100%;
+    margin-left: 0;
+    font-size: 30px;
+  }
+
+  .main-img{
+    width: 100%;
+    height: auto;
+  }
+
+  .span{
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  a{
+    margin-left: 10px;
+    font-size: 22px;
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+  .main-div{
+    padding: 30px 15px;
+  }
+
+  .main-h1{
+    font-size: 24px;
+  }
+
+  .span{
+    font-size: 20px;
+  }
+
+  a{
+    font-size: 18px;
+  }
+
 }

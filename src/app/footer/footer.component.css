@@ -55,7 +55,7 @@
     font-weight: bold;
 }
 /* -----------------------------------------tablet------------------------------------------- */
-@media (max-width: 1024px){
+/* @media (max-width: 1024px){
 
   .footer{
     padding: 50px 20px;
@@ -82,17 +82,17 @@
     height: 70px;
   }
 
-}
+} */
 
 /* -----------------------------mobile------------------------------------ */
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 
   .footer{
     padding: 40px 15px;
   }
 
   .footer-grid{
-    grid-template-columns: 1fr; /* force single column */
+    grid-template-columns: 1fr; 
     text-align: center;
   }
 
@@ -128,11 +128,11 @@
     right: 15px;
   }
 
-}
+} */
 
 
 /* ----------------------------small mobile--------------------------- */
-@media (max-width: 480px){
+/* @media (max-width: 480px){
 
   .footer{
     padding: 30px 10px;
@@ -165,4 +165,124 @@
     font-size: 12px;
   }
 
+} */
+
+@media (max-width: 1024px){
+
+    .footer{
+        padding: 50px 30px;
+    }
+
+    .footer-grid{
+        gap: 30px;
+    }
+
+    .footer-col p{
+        font-size: 16px;
+    }
+
+    .blog-post img{
+        width: 70px;
+        height: 70px;
+    }
+
 }
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px){
+
+    .footer{
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .footer-grid{
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-col h2.logo{
+        font-size: 1.8rem;
+    }
+
+    .footer-col h3{
+        font-size: 1.1rem;
+    }
+
+    .footer-col p{
+        font-size: 15px;
+    }
+
+    .founder{
+        justify-content: center;
+    }
+
+    .blog-post{
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .contact-item span{
+        font-size: 14px;
+    }
+
+    .back-to-top{
+        width: 35px;
+        height: 35px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+    .footer{
+        padding: 30px 15px;
+    }
+
+    .footer-col h2.logo{
+        font-size: 1.5rem;
+    }
+
+    .footer-col h3{
+        font-size: 1rem;
+    }
+
+    .footer-col p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .blog-post{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog-post img{
+        width: 65px;
+        height: 65px;
+    }
+
+    .founder{
+        flex-direction: column;
+    }
+
+    .back-to-top{
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+    }
+
+}
+

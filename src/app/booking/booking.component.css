@@ -97,7 +97,7 @@ a{
   }
   /* ----------------------------tablet---------------------------------- */
 
-  @media (max-width: 1024px){
+  /* @media (max-width: 1024px){
     .booking-main{
     flex-direction: column;
     align-items: center;
@@ -122,9 +122,9 @@ a{
   .book-btn{
     width: 90%;
   }
-  }
+  } */
   /* ---------------------------------------mobile-------------------------------------- */
-@media (max-width: 768px){
+/* @media (max-width: 768px){
   .book{
     width: 95%;
   }
@@ -132,9 +132,9 @@ a{
   input{
     font-size: 14px;
   }
-}
+} */
 /* ------------------------------------smalll mobile------------------------------------ */
-@media (max-width: 480px){
+/* @media (max-width: 480px){
    .h4-1, .h4-2{
     font-size: 22px;
   }
@@ -142,6 +142,144 @@ a{
   .book-img{
     width: 100%;
     height: auto;
+  }
+
+} */
+
+@media (max-width: 1024px){
+
+  .booking-main{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .contact{
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .book{
+    width: 95%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .book-img{
+    width: 320px;
+    height: auto;
+  }
+
+  input{
+    width: 90%;
+  }
+
+  .book-btn{
+    width: 90%;
+  }
+ 
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 768px){
+
+  .booking-main{
+    margin-top: 40px;
+  }
+
+  .contact{
+    width: 100%;
+    height: 350px;
+  }
+
+  .div-contact{
+    margin-top: 55%;
+    font-size: 18px;
+  }
+
+  .book{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .book-img{
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .h4-1,
+  .h4-2{
+    font-size: 28px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  input{
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .book-btn{
+    width: 90%;
+    height: 45px;
+  }
+
+  a{
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+  .contact{
+    height: 300px;
+  }
+
+  .div-contact{
+    font-size: 16px;
+  }
+
+  .h4-1,
+  .h4-2{
+    font-size: 22px;
+  }
+
+  input{
+    height: 42px;
+    font-size: 14px;
+  }
+
+  .book-btn{
+    height: 42px;
+    font-size: 14px;
+  }
+
+  .btn-service{
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  a{
+    font-size: 15px;
   }
 
 }
