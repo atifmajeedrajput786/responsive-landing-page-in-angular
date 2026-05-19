@@ -30,9 +30,14 @@
   }
   .logo{
     cursor: pointer;
-    font-size:45px;
+    font-size: 45px;
     font-weight: 700;
-
+  }
+  /* last group: icon + button + hamburger */
+  .last {
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   /* BUTTONS */
   .btn {
@@ -56,78 +61,23 @@
   }
   a:hover{
     color: blue;
-}
-a{
+  }
+  a{
     text-decoration: none;
     margin-left: 25px;
     font-size: large;
   }
 
 .hamburger{
-  display: none ;
+  display: none;
   font-size: 28px;
   cursor: pointer;
 }
-/* ================= TABLET (1024px and below) ================= */
-/* 
-  @media (max-width: 1024px){
-     .container{
-    flex-direction: column;
-    padding: 0 20px;
-  }
- .menu{
-    gap: 15px;
-    font-size: 14px;
-  }
-
-  } */
-  /* ================= MOBILE (768px and below) ================= */
-/* @media (max-width: 768px){
-  .logo{
-    font-size: 28px;
-  }
-  .menu {
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    background: white;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 0;
-    display: none;
-  }
-  .btn{
-    width: 180px;
-    height: 45px;
-    font-size: 14px;
-  }
-}
- .menu.active {
-    display: flex;
-  } */
-/* ================= SMALL MOBILE (480px and below) ================= */
-/* @media (max-width: 480px){
-  .hero{
-    padding: 40px 10px;
-  }
-
-  .hero-text h1{
-    font-size: 22px;
-  }
-
-  .btn{
-    width: 150px;
-    height: 40px;
-    font-size: 12px;
-  }
-   .hamburger{
-    display:block;
-  }
 
 
-} */
+/* =========================
+   TABLET (1024px and below)
+========================= */
 
 @media (max-width: 1024px) {
 
@@ -226,6 +176,53 @@ a{
 
   .menu {
     top: 80px;
+  }
+
+}
+
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .container {
+    padding: 0 50px;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 40px;
+    flex-shrink: 0;
+  }
+
+  .menu {
+    gap: 22px;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .menu li {
+    font-size: 15px;
+  }
+
+  .last {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .btn {
+    width: 200px;
+    height: 46px;
+    font-size: 15px;
+  }
+
+  i {
+    font-size: 20px;
+    margin-right: 8px;
   }
 
 }

@@ -508,3 +508,49 @@
     }
 
 }
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .body {
+    margin-left: 80px;
+    width: 85%;
+    padding-top: 80px;
+  }
+
+  .title {
+    font-size: 34px;
+    width: 55%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+    gap: 20px;
+    width: auto;
+    margin-right: 80px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .img {
+    height: 280px;
+  }
+
+  .h3 {
+    font-size: 22px;
+    margin-right: 20px;
+  }
+
+  .intro {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+
+}

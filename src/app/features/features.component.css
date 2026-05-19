@@ -56,3 +56,30 @@
     margin: 20px;
   }
 }
+
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 80px;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    min-height: 170px;
+    padding: 20px;
+  }
+
+  .icon {
+    font-size: 60px;
+  }
+
+}

@@ -283,3 +283,61 @@ a{
   }
 
 }
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .booking-main {
+    justify-content: center;
+    gap: 30px;
+    margin-top: -120px;
+    padding: 0 60px;
+  }
+
+  .contact {
+    width: 340px;
+    height: 390px;
+    flex-shrink: 0;
+  }
+
+  .div-contact {
+    font-size: 18px;
+  }
+
+  .book {
+    flex: 1;
+    max-width: 760px;
+    width: auto;
+    height: auto;
+    min-height: 390px;
+    padding-bottom: 20px;
+  }
+
+  .book-img {
+    width: 300px;
+    height: 190px;
+  }
+
+  input {
+    width: 300px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .book-btn {
+    width: 300px;
+    height: 45px;
+  }
+
+  .h4-1 {
+    font-size: 28px;
+  }
+
+  .h4-2 {
+    font-size: 24px;
+  }
+
+}

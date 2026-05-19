@@ -318,3 +318,50 @@ border-radius: 8px;
   }
 
 }
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .dental {
+    width: 85%;
+    margin: 150px auto;
+    padding: 30px 40px;
+    gap: 50px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .services {
+    width: 60%;
+  }
+
+  .service-item {
+    font-size: 18px;
+  }
+
+  .image img {
+    width: 430px;
+    height: auto;
+  }
+
+  .experience-badge {
+    font-size: 22px;
+  }
+
+  .snake {
+    width: 72px;
+    height: 72px;
+    font-size: 36px;
+    padding-top: 19px;
+  }
+
+}

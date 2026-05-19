@@ -4,3 +4,79 @@
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
   }
+/* Responsive fixes below 1500px without affecting desktop layout */
+@media (max-width: 1500px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  section,
+  .container,
+  .body,
+  .main,
+  .hero,
+  .content,
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .body,
+  .main-body,
+  .cards,
+  .card-container,
+  .booking-body,
+  .footer-grid,
+  .hero-content,
+  .about-body,
+  .blog-body,
+  .experienced-body,
+  .our-body,
+  .reviews-body {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  input,
+  textarea,
+  select {
+    max-width: 100%;
+  }
+
+  [class*="card"],
+  [class*="box"],
+  [class*="content"] {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+  }
+
+  h2 {
+    font-size: clamp(1.6rem, 4vw, 3rem);
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    word-wrap: break-word;
+  }
+
+  button {
+    max-width: 100%;
+  }
+}

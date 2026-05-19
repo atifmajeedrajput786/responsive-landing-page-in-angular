@@ -5,12 +5,10 @@
     background-size: cover;  
     height: 765px;     
     padding: 100px 0;
-    /* background: #f4f8ff; */
   }
   
   .hero-text {
     width: 50%;
-  
   }
   
   .hero-text h1 {
@@ -25,9 +23,17 @@
   }
    
   .container-hero-wrap{
-    margin-left: 50% ;
-
+    margin-left: 50%;
   }
+
+  /* FIX: hero buttons row */
+  .hero-btns {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
   .btn {
     background: #0d6efd;
     color: white;
@@ -41,52 +47,19 @@
     background-color: #124390;
     color: #eee;
   }
-   a:hover{
+  a:hover{
     color: blue;
-}
-a{
+  }
+  a{
     text-decoration: none;
-    margin-left: 25px;
-    font-size: large;
-    color:black;
-  }
-
-/* -----------------------------------------tablet------------------------------------------- */
-
-
-  /* @media (max-width: 1024px){
-     .hero{
-    height: auto;
-    padding: 60px 20px;
-  }
-  .hero-text{
-    width: 100%;
-    text-align: center;
-  }
-
-  .hero-text h1{
-    font-size: 40px;
-  }
-
-  .container-hero-wrap{
     margin-left: 0;
+    font-size: large;
+    color: black;
   }
 
-  } */
-/* -----------------------------mobile------------------------------------ */
-/* 
-@media (max-width: 768px){
-   .hero-text h1{
-    font-size: 28px;
-  }
-
-  .hero-text p{
-    font-size: 14px;
-  }
-} */
-/* ----------------------------small mobile--------------------------- */
-/* @media (max-width: 480px){} */
-
+/* =========================
+   TABLET (1024px and below)
+========================= */
 
 @media (max-width: 1024px) {
 
@@ -141,6 +114,10 @@ a{
     text-align: center;
   }
 
+  .hero-btns {
+    justify-content: center;
+  }
+
   .hero-text h1 {
     font-size: 38px;
     line-height: 1.3;
@@ -158,7 +135,6 @@ a{
   }
 
   a {
-    margin-left: 10px;
     font-size: 15px;
   }
 }
@@ -180,7 +156,7 @@ a{
 
   .hero-text p {
     font-size: 14px;
-    color:black;
+    color: black;
   }
 
   .btn {
@@ -192,4 +168,52 @@ a{
   a {
     font-size: 14px;
   }
+}
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .hero {
+    height: auto;
+    padding: 100px 60px;
+  }
+
+  .container-hero-wrap {
+    margin-left: 45%;
+  }
+
+  .hero-text {
+    width: 55%;
+  }
+
+  .hero-text h1 {
+    font-size: 54px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .hero-btns {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+
+  .btn {
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+
+  a {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
 }

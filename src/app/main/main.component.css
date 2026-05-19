@@ -197,3 +197,43 @@ a{
   }
 
 }
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .main-div {
+    width: 88%;
+    margin-left: 80px;
+    height: auto;
+    min-height: 600px;
+    gap: 20px;
+  }
+
+  .main-title {
+    margin-top: 200px;
+  }
+
+  .main-h1 {
+    width: 80%;
+    margin-left: 60px;
+    font-size: 34px;
+  }
+
+  .span {
+    margin-left: 60px;
+    font-size: 28px;
+  }
+
+  a {
+    font-size: 28px;
+  }
+
+  .main-img {
+    width: 500px;
+    height: auto;
+  }
+
+}

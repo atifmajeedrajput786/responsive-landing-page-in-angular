@@ -286,3 +286,42 @@
 
 }
 
+
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .container {
+    max-width: 1100px;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+
+  .footer-col h2.logo {
+    font-size: 1.8rem;
+  }
+
+  .footer-col h3 {
+    font-size: 1.1rem;
+  }
+
+  .footer-col p {
+    font-size: 16px;
+  }
+
+  .blog-post img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .blog-post small {
+    font-size: 13px;
+  }
+
+}
