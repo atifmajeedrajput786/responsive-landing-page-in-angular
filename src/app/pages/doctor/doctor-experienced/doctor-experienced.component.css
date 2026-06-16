@@ -1,0 +1,160 @@
+.experience{
+    height: auto;
+    width: 100%;
+}
+  .grid{
+    width: 80%;
+    margin-left: 230px;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    
+}
+.card{
+    width: 415px;
+    height: 585px;
+    border-radius: 2%;
+    border-bottom: solid 1px  #0d6efd;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: transform 0.5S ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+  }
+.card:hover{
+    transform: translateY(-10px);
+
+}
+
+  img{
+    width: 100%;
+    height: 418px;
+    object-fit: cover;
+    
+  }
+  .grid-text{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 20px;
+    font-size: 25px;
+
+  }
+  i{
+  
+    margin: 10px 0 2px 5px;
+    color: white;
+    background-color: #00aaff;
+    cursor: pointer;
+    border-radius: 50%;
+ 
+  }
+  i:hover{
+    background-color: #124390;
+  }
+  strong:hover{
+    color: #00aaff;
+  }
+  p{
+    color: grey;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor:text;
+  }
+
+@media (max-width: 1024px) {
+
+    .grid{
+        width: 95%;
+        margin-left: auto;     
+        margin-right: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card{
+        width: 100%;          
+        max-width: 415px;      
+        height: auto;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .grid{
+        width: 95%;
+        margin-left: auto;    
+        margin-right: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 4 / 3;  
+        object-fit: cover;
+    }
+
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+
+    .grid{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    img{
+        aspect-ratio: 4 / 3;
+    }
+}
+
+
+/* =========================
+   LARGE SCREEN (1500px - 1025px)
+========================= */
+
+@media (max-width: 1500px) and (min-width: 1025px) {
+
+  .grid {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  .grid-text {
+    font-size: 22px;
+  }
+
+}

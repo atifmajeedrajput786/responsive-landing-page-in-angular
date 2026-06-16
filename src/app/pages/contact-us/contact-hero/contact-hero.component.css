@@ -1,0 +1,149 @@
+.info{
+    width: 500px;
+    height: 350px;
+    position: absolute ;
+    z-index: +1;
+    background-color: white;
+    margin-top: -425px;
+    margin-left: 350px ;
+}
+.heading{
+    font-size: 25px;
+    width: 80%;
+    margin: 50px 0 30px 50px;
+}
+.number{
+    text-decoration: none;
+    color: #06A6E2;
+    font-size: 22px;
+    margin: 0 0 30px 50px;
+}
+.number:hover{
+    color: #1263BF;
+
+}
+.text{
+    margin: 30px 0 30px 50px;
+}
+.mail{
+    margin-left: 50px ;
+    font-size: 22px;
+    color: #1263BF;
+    cursor: pointer;
+}
+.mail:hover{
+        color: #06A6E2;
+}
+li{
+    list-style: none;
+}
+.logo{
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    font-size: 12px;
+    margin-left: 45px;
+    margin-right: -40px;
+    margin-top: 25px;
+    border-radius: 50%;
+    border: solid 1px #F2F2F2;
+    cursor: pointer;
+}
+.logo:hover{
+    color: white;
+    background-color: #06A6E2;
+}
+/* 1500px - 1201px */
+@media (max-width: 1500px) {
+    .info {
+        margin-left: 250px;
+    }
+}
+
+/* 1200px - 1001px */
+@media (max-width: 1200px) {
+    .info {
+        margin-left: 150px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1000px) {
+    .info {
+        position: relative;
+        margin: 40px auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .heading {
+        margin: 40px 30px 20px;
+        font-size: 24px;
+    }
+
+    .number,
+    .mail {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .text {
+        margin-left: 30px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+}
+
+/* Large Mobile */
+@media (max-width: 768px) {
+    .info {
+        width: 95%;
+        padding: 20px 0;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+
+    .number,
+    .mail {
+        font-size: 18px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .heading {
+        font-size: 20px;
+    }
+
+    .number,
+    .mail {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 22px;
+        height: 22px;
+        font-size: 11px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 375px) {
+    .heading {
+        font-size: 18px;
+    }
+
+    .number,
+    .mail {
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 20px;
+        height: 20px;
+    }
+}

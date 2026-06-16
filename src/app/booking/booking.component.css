@@ -95,56 +95,6 @@ a{
     background-color: #124390;
     color: #eee;
   }
-  /* ----------------------------tablet---------------------------------- */
-
-  /* @media (max-width: 1024px){
-    .booking-main{
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
-    gap: 20px;
-  }
-
-  .book{
-    flex-direction: column;
-    width: 90%;
-    height: auto;
-  }
-
-  .contact{
-    width: 90%;
-  }
-
-  input{
-    width: 90%;
-  }
-
-  .book-btn{
-    width: 90%;
-  }
-  } */
-  /* ---------------------------------------mobile-------------------------------------- */
-/* @media (max-width: 768px){
-  .book{
-    width: 95%;
-  }
-
-  input{
-    font-size: 14px;
-  }
-} */
-/* ------------------------------------smalll mobile------------------------------------ */
-/* @media (max-width: 480px){
-   .h4-1, .h4-2{
-    font-size: 22px;
-  }
-
-  .book-img{
-    width: 100%;
-    height: auto;
-  }
-
-} */
 
 @media (max-width: 1024px){
 

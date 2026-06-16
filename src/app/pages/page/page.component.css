@@ -1,0 +1,8 @@
+.page{
+    background-image: url(../../../assets/image/pages/appointment-bg-2.jpg.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+}
