@@ -215,3 +215,41 @@
         font-size: 20px;
     }
 }
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+    .specialty {
+        height: auto;
+        padding-bottom: 60px;
+    }
+
+    .body {
+        width: 45%;
+        margin-left: 27.5%;
+        font-size: 19px;
+    }
+
+    .grid {
+        margin-left: 160px;
+        width: 80%;
+        gap: 18px;
+    }
+
+    .card {
+        width: 280px;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    i {
+        width: 75px;
+        height: 75px;
+        font-size: 38px;
+        padding-top: 18px;
+        margin-left: 32%;
+    }
+
+    h2 {
+        font-size: 19px;
+    }
+
+}

@@ -152,3 +152,31 @@ input{
         font-size: 15px;
     }
 }
+/* =========================
+   EXTRA LARGE SCREEN (1670px - 1500px)
+   ONLY ADDITION - NO CHANGES TO EXISTING MEDIA QUERIES
+========================= */
+
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+  .form {
+    margin-left: 220px;   /* smoother centering for wide screens */
+    width: 520px;         /* slightly better proportion */
+    height: 460px;
+  }
+
+  input {
+    width: 390px;
+    margin-left: 60px;
+  }
+
+  .h4-1 {
+    font-size: 36px;
+    margin-left: 65px;
+  }
+
+  .book-btn {
+    width: 240px;
+    margin-left: 60px;
+  }
+}

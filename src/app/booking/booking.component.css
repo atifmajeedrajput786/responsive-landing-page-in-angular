@@ -291,3 +291,47 @@ a{
   }
 
 }
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+  .booking-main {
+    justify-content: center;
+    gap: 40px;
+    padding: 0 80px;
+    margin-top: -130px;
+  }
+
+  .contact {
+    width: 380px;
+    height: 400px;
+  }
+
+  .book {
+    width: 820px;
+    height: auto;
+    min-height: 400px;
+  }
+
+  .book-img {
+    width: 340px;
+    height: auto;
+  }
+
+  input {
+    width: 340px;
+    height: 48px;
+  }
+
+  .book-btn {
+    width: 340px;
+    height: 48px;
+  }
+
+  .h4-1 {
+    font-size: 32px;
+  }
+
+  .h4-2 {
+    font-size: 30px;
+  }
+
+}

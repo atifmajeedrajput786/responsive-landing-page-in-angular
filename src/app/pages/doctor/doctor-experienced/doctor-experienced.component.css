@@ -158,3 +158,41 @@
   }
 
 }
+/* =========================
+   EXTRA LARGE SCREEN (1670px - 1500px)
+   ONLY ADDED - NO CHANGES TO EXISTING BREAKPOINTS
+========================= */
+
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+  .grid {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+  }
+
+  img {
+    height: 360px;
+    object-fit: cover;
+  }
+
+  .body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn {
+    width: 150px;
+    height: 55px;
+    font-size: 20px;
+  }
+}

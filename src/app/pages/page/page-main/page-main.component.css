@@ -126,3 +126,27 @@
         font-size: 13px;
     }
 }
+/* =========================
+   EXTRA LARGE SCREEN (1670px - 1501px)
+   FIX FOR WIDE DESKTOP ALIGNMENT
+========================= */
+
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+  .reviews {
+    padding: 0 220px; /* smoother than 350px */
+    height: 320px;
+  }
+
+  .h3 {
+    font-size: 22px;
+  }
+
+  .p {
+    font-size: 16px;
+  }
+
+  .logo {
+    padding: 14px;
+  }
+}

@@ -252,3 +252,50 @@
   }
 
 }
+/* =========================
+   1670px - 1501px
+========================= */
+
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+  .specialty {
+    height: auto;
+    padding-bottom: 70px;
+  }
+
+  .body {
+    padding-top: 130px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .grid {
+    margin-left: 120px;
+    width: 85%;
+    gap: 18px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+    min-height: 270px;
+    padding: 25px 0;
+  }
+
+  i {
+    width: 72px;
+    height: 72px;
+    font-size: 36px;
+    padding-top: 18px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+}

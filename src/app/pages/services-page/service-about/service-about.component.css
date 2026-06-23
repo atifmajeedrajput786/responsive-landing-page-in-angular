@@ -137,3 +137,34 @@
   }
 
 }
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+  .s-cards {
+    margin: 100px 120px;
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .s-card1,
+  .s-card2,
+  .s-card3 {
+    width: 100%;
+    max-width: 410px;
+    height: auto;
+  }
+
+  .img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .cardh3 {
+    font-size: 24px;
+  }
+
+  .cardp {
+    font-size: 16px;
+  }
+
+}

@@ -102,113 +102,7 @@
     color: gray;
 
   }
-/* -----------------------------------------tablet------------------------------------------- */
 
-/* @media (max-width: 1024px){
-
-  .reviews{
-    height: auto;
-    margin-top: 100px;
-    padding-bottom: 50px;
-  }
-
-  .body{
-    flex-direction: column;
-    align-items: center;
-    padding-top: 80px;
-    gap: 20px;
-    text-align: center;
-  }
-
-  .grid{
-    margin-left: 0;
-    width: 90%;
-    grid-template-columns: repeat(2, 1fr); 
-    justify-items: center;
-  }
-
-  .card{
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-  }
-
-} */
-
-
-/* -----------------------------mobile------------------------------------ */
-
-/* @media (max-width: 768px){
-
-  .grid{
-    grid-template-columns: 1fr; 
-    width: 95%;
-  }
-
-  .card{
-    width: 100%;
-  }
-
-  .btn{
-    width: 120px;
-    height: 45px;
-    font-size: 16px;
-  }
-
-  .intro{
-    font-size: 16px;
-    padding-top: 60px;
-  }
-
-  .d-name{
-    font-size: 18px;
-  }
-
-  span{
-    font-size: 14px;
-  }
-
-  i{
-    width: 55px;
-    height: 55px;
-    font-size: 28px;
-    padding-top: 12px;
-    margin-top: -30px;
-  }
-
-} */
-
-
-/* ----------------------------small mobile--------------------------- */
-/* @media (max-width: 480px){
-
-  .reviews{
-    margin-top: 60px;
-  }
-
-  .body{
-    padding-top: 50px;
-  }
-
-  .btn{
-    width: 100px;
-    height: 40px;
-    font-size: 14px;
-  }
-
-  .intro{
-    font-size: 14px;
-  }
-
-  .d-name{
-    font-size: 16px;
-  }
-
-  span{
-    font-size: 13px;
-  }
-
-} */
   @media (max-width: 1024px) {
 
     .reviews{
@@ -341,6 +235,52 @@
     height: 62px;
     font-size: 32px;
     padding-top: 14px;
+  }
+
+}
+/* =========================
+   1670px - 1501px
+========================= */
+
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+  .reviews {
+    height: auto;
+    padding-bottom: 90px;
+  }
+
+  .body {
+    padding-top: 130px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    gap: 18px;
+    margin-top: 65px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+    min-height: 330px;
+    height: auto;
+  }
+
+  .intro {
+    font-size: 19px;
+    padding-top: 65px;
+  }
+
+  i {
+    width: 65px;
+    height: 65px;
+    font-size: 34px;
+    padding-top: 15px;
   }
 
 }

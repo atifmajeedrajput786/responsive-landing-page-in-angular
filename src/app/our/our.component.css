@@ -365,3 +365,49 @@ border-radius: 8px;
   }
 
 }
+/* =========================
+   1670px - 1501px
+========================= */
+
+@media (max-width: 1670px) and (min-width: 1501px) {
+
+  .dental {
+    width: 82%;
+    margin: 160px auto;
+    padding: 35px 40px;
+    gap: 45px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .services {
+    width: 55%;
+  }
+
+  .service-item {
+    font-size: 19px;
+  }
+
+  .image img {
+    width: 470px;
+    height: auto;
+  }
+
+  .experience-badge {
+    font-size: 23px;
+  }
+
+  .snake {
+    width: 75px;
+    height: 75px;
+    font-size: 38px;
+    padding-top: 20px;
+  }
+
+}
